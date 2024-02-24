@@ -1,0 +1,73 @@
+
+
+const Footer = () => {
+    return (
+        <div className='bg-slate-50 mt-8 '>
+            <div className='border-b flex justify-between max-[992px]:justify-center min-w-full pt-5 mb-5 px-12'>
+                <div className='my-auto max-[992px]:hidden'>
+                    <p className='text-2xl font-bold'>Find amazing deals on the go.</p>
+                    <p className='text-red-600 text-2xl font-bold'>Download the app now!</p>
+                </div>
+                <div className='grid gap-8 grid-flow-col'>
+                    <div className='mr-14'>
+                    </div>
+                    <div className='grid gap-1 grid-cols-3 justify-end'>
+                       
+                    </div>
+                </div>
+            </div>
+            <div className='pt-3 grid gap-4 justify-items-start max-[667px]:justify-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 container '>
+                <div>
+                    <p className='font-bold text-sm mb-3'>ABOUT US</p>
+                    <div>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>About Dubizzle Group</a>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Careers</a>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Contact Us</a>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Dubizzle for Businesses</a>
+                    </div>
+                </div>
+                <div>
+                    <p className='font-bold text-sm mb-3'>DUBIZZLE</p>
+                    <div>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Blog</a>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Help</a>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Sitemap</a>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Terms of use</a>
+                        <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Privacy Policy</a>
+                    </div>
+                </div>
+                <div>
+                    <p className='font-bold text-sm mb-3'>COUNTRIES</p>
+                    <div className='grid grid-cols-2'>
+                        <div>
+                            <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Bahrain</a>
+                            <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Jordan</a>
+                            <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Kuwait</a>
+                            <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Lebanon</a>
+                            <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Oman</a>
+                        </div>
+                        <div>
+                            <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Qatar</a>
+                            <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>Saudi Arabia</a>
+                            <a className='text-xs size-fit block pb-1 mb-1 hover:text-red-500' href='#'>UAE</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p className='font-bold text-sm mb-3'>FOLLOW US</p>
+                    
+                    <div className='flex'>
+                       
+                    </div>
+                </div>
+            </div>
+            <div className='bg-slate-100'>
+                <div className='flex justify-end'>
+                    <p className='text-xs p-4 mr-5'><span className='font-bold'>Classifieds in Egypt</span> &copy; 2024 Dubizzle</p>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Footer;
